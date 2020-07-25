@@ -38,4 +38,4 @@ jobs:
             git tag -a "v1.0.4" -m "v1.0.4"
             git remote add release "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
             git push -u --follow-tags release master
-          fi
+
